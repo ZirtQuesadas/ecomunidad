@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ecomunidad</title>
+		<link rel="stylesheet" href="css/grid-system.css">
+		<link rel="stylesheet" href="css/utilities.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header> <!-- Fondo blanco. Contiene el menu de navegación y el logo, todo metido en un mismo row-->
+	   	    <div class="row"> <!-- Este Row NO está dentro de un container a propósito. 
+	   	    					UPDATE: OK, probemos poniéndolo en un container.
+	   	    					UPDATE2: OK, no, que se quede así (no jalaba porque no estaba bien cerrada la llave en css). -->
+		    	<div class="col-1">
+		    		<!-- Este div sólo mete espacio entre el menú de navegación y el logo -->
+		    	</div>
+		       	<div class="col-2">
+			    		<img class="logo" src="img/ecomunidad-logo.png" alt="ecomunidad logo"> <!-- Logo maldito, vuelve a tu tamaño pequeño!! >:( Probando reducirlo a una columna -->
+		    	</div>
+		    	<div class="col-1">
+		    		<!-- Este div sólo mete espacio entre el logo y el menú de navegación-->
+		    	</div>
+			    <div class="col-6">
+			    	<ul>
+						<li class="span lineamenu menu">Nosotros </li>
+						<li class="span lineamenu menu">Servicios</li>
+						<li class="span lineamenu menu">Proyectos</li>
+						<li class="span lineamenu menu">Equipos  </li>
+						<li class="span lineamenu menu">Blogs	 </li>
+						<li class="span menu">Síguenos </li>
+					</ul>  		
+				</div>
+		  	</div>
+		</header> <!-- Dejamos que el header contenga el menu de navegación y el logo, todo metido en un row -->
+		<section>
+			<div class="semilla"><!-- Este div contiene la imagen como fondo y las propiedades que recortan la imagen semilla -->
+		  	</div>
+		  	<div class="fondogris container">
+  				<div class="row">
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  					</p>
+  				</div>
+		  	</div>
+		</section>
+
+		<section class="MisionVision">
+			<div class="fondoblanco">
+				<div class="row">
+					<div class="col-6 CajaMision span">
+						<div class="MisionIMG">
+							<img src="img/iconos/mision/mision.png">
+						</div>
+						<div class="textoencaja">
+							<h2>Misión</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div><!-- Aquí cierra el div "col-6 MisionCaja span" -->
+					<div class="col-6 CajaVision span">
+						<div class="VisionIMG">
+							<img src="img/iconos/mision/vision.png">
+						</div>
+						<div class="textoencaja">
+							<h2>Visión</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div><!-- Aquí cierra el div "col-6 VisionCaja span" -->
+				</div><!-- Aquí cierra el div "row" --> 
+			</div><!-- Aquí cierra el div "fondoblanco" --> 
+			<div class="container fondoverdeuno"><!-- Aquí abre el div "fondoverde"-->
+				<div class="row">
+					<div class="col-6">
+						<div class="FotoSize"><!--en lugar de <img class="FotoSize" src="img/metodo.jpg"-->
+						</div><!-- Aquí cierra el div "FotoSize" que da la imagen-->
+					</div>
+					<div class="col-6">
+						<div class="CajaMetodo">
+							<div class="CajaMetodoICON">
+								<img src="img/iconos/metodologia-icon.png">
+							</div>
+							<h2 style="padding-bottom:40px;"> Metodología</h2><!-- Así para ajustes específicos, pues en la hoja css tardo mucho en asignar clases que sólo estoy usando una vez--> 
+							<p style="font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	consequat.</p> <!--Can't help it :P Un estilo aquí es más rápido, por esta vez, porque están muy distintos en la misma página -->
+						</div>	<!-- Aquí cierra el div "CajaMetodo" -->
+					</div><!-- Aquí cierra el div "col-6" -->
+				</div>  <!-- Aquí cierra el div "row" --> 
+			</div><!-- Aquí cierra el div "container fondoverde"-->
+		</section><!-- Aquí cierra el section Mision Vision Metodología --> 
+
+		<section class="Servicios"><!-- Aquí abre section Servicios --> 
+			<div class="container">
+				<div class="row"><!--Título de sección y párrafo -->
+					<div class="col-12">
+						<h2>Servicios</h2>
+						<p class="fila" style="padding: 30px 70px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+				<div class="row fila">
+					<div class="col-4">
+						<div class="educacion">
+							<img src="img/iconos/servicios-icon/educacion.png">
+							<h3>Educación para el Desarrollo Sostenible</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="mitigacion">
+							<img src="img/iconos/servicios-icon/mitigacion.png">
+							<h3>Mitigación Cambio Climático</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="bienestar">
+							<img src="img/iconos/servicios-icon/bienestar.png">
+							<h3>Bienestar Ocupacional</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row fila">
+					<div class="col-4">
+						<div class="Consultorias">
+							<img src="img/iconos/servicios-icon/seguridad-icon.png">
+							<h3>Consultorías en Seguridad Ambiental y Medio Ambiente</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="Manejo">
+							<img src="img/iconos/servicios-icon/manejo-de-agua.png">
+							<h3>Manejo de Aguas</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="Agricultura">
+							<img src="img/iconos/servicios-icon/agricultura-icon.png">
+							<h3>Agricultura</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- Aquí cierra section Servicios -->
+
+		<section class="fondoverdedos"><!-- Aquí abre section Proyectos. Se repiten clases--> 
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 style="font-family: OpenSans-Light;">Proyectos</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-5">
+						<img class="ProyIMGSize" src="img/fotos/img-0352.jpg">
+					</div>
+					<div class="col-7">
+						<div class="textoDER">
+							<h2>Nombre del Proyecto 1</h2>
+							<h3>Nombre de Distrito</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>	
+					</div>
+				</div><!-- Aquí cierra div.row -->
+				<div class="row">
+					<div class="col-5">
+						<img class="ProyIMGSize" src="img/fotos/img-9246.jpg">
+					</div>
+					<div class="col-7">
+						<div class="textoDER">
+							<h2>Nombre del Proyecto 1</h2>
+							<h3>Nombre de Distrito</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>	
+					</div>
+				</div><!-- Aquí cierra div.row -->
+			</div><!-- Aquí cierra div.container -->			
+		</section><!-- Aquí cierra section Proyectos--> 
+
+		<section class="Equipo"><!-- Aquí abre section Equipo--> 
+			<h2>Equipo</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-5">
+						<div class="CajaProfile span">
+							<img class="roundprofile" src="img/fotos/equipo2.jpg">
+							<h2>Camila Basurco</h2>
+							<h4>Cargo desempeñado</h4>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="RRSS">
+								<img class="chiqui" src="img/iconos/redes-sociales/twitter.png">
+								<img class="chiqui" src="img/iconos/redes-sociales/in.png">
+								<img class="chiqui" src="img/iconos/redes-sociales/mensaje.png">
+							</div>
+						</div>
+					</div>
+					<div class="col-2">
+						
+					</div>
+					<div class="col-5">
+						<div class="CajaProfile span">
+							<img class="roundprofile" src="img/fotos/equipo3.jpg">
+							<h2>Gabriela Bertocci</h2>
+							<h4>Cargo desempeñado</h4>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="RRSS">
+								<img class="chiqui" src="img/iconos/redes-sociales/twitter.png">
+								<img class="chiqui" src="img/iconos/redes-sociales/in.png">
+								<img class="chiqui" src="img/iconos/redes-sociales/mensaje.png">
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<br>
+			<br>
+		</section>	<!-- Aquí cierra section Equipo--> 
+
+		<section class="Blog">
+			<div class="botonIZQ prueba">
+				<img src="img/iconos/slider/ecomunidad-15.png">
+			</div>
+			<div class="botonDER prueba">
+				<img src="img/iconos/slider/ecomunidad-16.png">
+			</div>
+			<div class="container">
+				<div class="row"><!--Título de sección y párrafo -->
+					<div class="col-12">
+						<h2>Blog</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<img class="PostFoto" src="img/fotos/img-9246.jpg">
+						<h3>Título del Post</h3>
+						<h4>31.Jul.2015</h4>
+						<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</p>
+					</div>
+					<div class="col-4">
+						<img class="PostFoto" src="img/fotos/img-0352.jpg">
+						<h3>Título del Post 2</h3>
+						<h4>27.Nov.2015</h4>
+						<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</p>
+					</div>
+					<div class="col-4">
+						<img class="PostFoto" src="img/fotos/img-0400.jpg">
+						<h3>Título del Post 3</h3>
+						<h4>18.Feb.2016</h4>
+						<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</p>
+					</div>
+				</div>	
+			</div>			
+		</section><!-- Aquí cierra section Blog--> 
+
+		<section class="RRSSbig"><!-- Aquí abre section RRSSbig--> 
+			<div class="container border"><!-- Aquí abre div.container.border-->
+				<div class="row"><!-- Aquí abre div.row-->
+					<div class="col-3">
+						<p>Facebook</p>
+						<img class="R" src="">
+					</div><!-- Aquí cierra div.col-3-->
+				</div><!-- Aquí cierra div.row-->
+			</div><!-- Aquí abre div.container.border-->
+		</section><!-- Aquí cierra section RRSSbig-->
+
+		<footer>
+			
+		</footer>
+	</body>
+</html>

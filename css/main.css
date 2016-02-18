@@ -1,0 +1,311 @@
+* 
+{
+	font-family: OpenSans-Regular;
+}
+header /*Empieza el header*/
+	{
+		background-color: white; /* El header será blanco */
+	}
+ul 
+	{
+		padding-top: 20px;
+	}
+.logo
+	{
+		width: 125px;
+		height: 112px;
+		position: relative;
+		left: 50px;
+	}
+.lineamenu
+	{
+		list-style: none;
+		display: inline-block;
+		border-right: 2px solid gray;
+	}
+.menu
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 5px;
+		padding-right: 25px;
+		color: gray;
+		list-style: none;
+	}
+/*Termina el header*/
+/*Inicio section imagen-semilla + fondogris + p*/
+.semilla /*Asi se corta la imágen semilla*/
+	{
+		width: 1349px;
+		height: 367px;
+		background-image: url(../img/semilla.jpg);
+		background-position: center;
+		background-repeat: repeat;
+	}
+.fondogris
+	{
+		background-color: #F0F0F0;
+		width: 100%;
+
+	}
+.fondogris p
+	{
+		color: gray;
+		padding: 70px 80px 70px 80px;
+		text-align: center;
+		font-family: OpenSans-Regular;
+	}
+/*Termina section imagen-semilla + fondogris + p*/
+/*Inicia section Misión Visión Metodología*/
+section.MisionVision
+	{
+
+	}
+.fondoblanco h2
+	{
+		color: black;
+	}
+.CajaMision
+	{
+		position: relative;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+
+.MisionIMG
+	{
+		position: relative;
+		left: 35%;
+	}
+
+.textoencaja
+	{
+		text-align: center;
+		padding: 10px 30px;
+		font-family: OpenSans-Regular;
+		color: gray;
+	}
+
+.CajaVision
+	{
+		position: relative;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+
+.VisionIMG
+	{
+		position: relative;
+		left: 35%;
+	}
+.fondoverdeuno
+	{
+		background-image: url(../img/fondo.jpg);
+		position: relative;
+		height: 432px;
+	}
+.FotoSize /*Esta clase es la que sí está jalando para dar tamaño a la imagen*/
+	{
+		background-image: url(../img/metodo.jpg);
+		height: 432px;
+		width: 480px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		margin-left: -14px;
+	}
+.CajaMetodo
+	{
+		position: relative;
+		color: white;
+		text-align: center;
+		margin-top: 100px;
+		margin-left: 40px;
+	}
+.CajaMetodoICON
+	{
+		margin-bottom: 40px;
+	}
+/*Termina section Misión Visión Metodología*/
+
+/*Inicia section Servicios*/
+section.Servicios
+	{
+		text-align: center;
+		margin-top: 30px;
+	}
+section.Servicios h2
+	{
+		color: black;
+	}
+section.Servicios h3
+	{
+		color: #5E8039;
+		margin-top: 20px;
+	}
+section.Servicios p
+	{
+		color: gray;
+		margin-top: 20px;
+		padding: 0 10px;
+	}
+.fila
+	{
+		margin: 30px 20px;
+	}
+/*Termina section Servicios*/
+
+/*Inicia section Proyectos*/
+section.fondoverdedos
+	{
+		background-color: #5E8039;
+		color: white;
+		padding: 100px;
+		font-family: OpenSans-Light;
+	}
+section.fondoverdedos > h2
+	{
+		margin-left: 100px;
+		margin-bottom: 5px;
+	}
+.ProyIMGSize
+	{
+		width: 400px;
+		height: 266px;
+		margin-bottom: 5px;
+		margin-right: 150px;
+		position: relative;
+	}
+div.textoDER
+	{
+		position: relative;
+		text-align: center;
+		padding: 10px 40px;
+	}
+div.textoDER > p
+	{
+		margin-top: 20px;
+		color: white;
+		font-family: OpenSans-Light;
+	}
+/*Termina section Proyectos*/
+
+/*Inicia section Equipo*/
+section.Equipo
+	{
+		background-color: white;
+		font-family: OpenSans-Light;
+	}
+section.Equipo > h2
+	{
+		color: #5E8039 !important; 
+		position: relative !important;
+		top: 50px !important;
+		left: 150px !important;
+		text-align: left !important;
+	}
+.CajaProfile
+	{
+		position: relative;
+		top: 60px;
+	}
+.roundprofile
+	{
+		border-radius: 300px;
+		position: relative;
+		left: 30px;
+	}
+section.Equipo h2, h4, p
+	{
+		text-align: center;
+	}
+p 
+	{
+		color: gray;
+	}
+.chiqui
+	{
+		width: 35px;
+		height: 35px;
+		margin-right: 5px;
+	}
+.RRSS
+	{
+		position: relative;
+		top: 30px;
+		left: 115px;
+		margin-bottom: 150px;
+	}
+
+/*Termina section Equipo*/
+/*Inicia section Blog*/
+section.Blog
+	{
+		background-image: url(../img/fondo2.jpg);
+	}
+section.Blog  h2
+	{
+		position: relative;
+		top: 30px;
+		margin-left: -20px;
+	}
+section.Blog h3, h4
+	{
+		text-align: center;
+		margin-bottom: 5px;
+		color: gray;
+	}
+section.Blog p
+	{
+		margin-bottom: 30px;
+	}
+.PostFoto
+	{
+		height: 200px;
+		width: 300px;
+		margin-bottom: 10px;
+		margin-top: 50px;
+	}
+.botonIZQ
+	{
+		margin-left: 70px;		
+	}
+.botonDER
+	{
+		margin-left: 1150px;
+	}
+.prueba
+	{
+		position: relative;
+		height: 30px;
+		width: 30px;
+		top: 200px;
+		display: inline-block;
+	}
+/*Termina section Blog*/
+/*Inicia section RRSS*/
+section.RRSSbig
+	{
+		background-color: gray;
+		color: white;
+	}
+.border
+	{
+		border: white 1px solid;
+	}
+/*Termina section RRSS*/
+.span
+	{
+		display: inline-block;
+	}
+/*Inicia footer*/
+
+
+/*Termina footer*/
+
+
+
+/*<div class="container"></div><!-- Aquí cierra el div "container"*/ 
+
