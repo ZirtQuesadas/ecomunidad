@@ -288,12 +288,31 @@ section.Blog p
 /*Inicia section RRSS*/
 section.RRSSbig
 	{
-		background-color: gray;
+		background-color: gray;	background-color: #4D4D4D;
 		color: white;
+		padding: 50px;
+	}
+.RS
+	{
+		height: 40px;
+		width: 40px;
+		position: relative;
+		top: 0px;
+		left: 60px;
+	}
+.RSmail
+	{
+		height: 40px;
+		width: 60px;
+		position: relative;
+		top: 0px;
+		left: 60px;
 	}
 .border
 	{
 		border: white 1px solid;
+		width: 220px;
+		height: 200px;
 	}
 /*Termina section RRSS*/
 .span
